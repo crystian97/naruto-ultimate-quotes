@@ -1,5 +1,7 @@
+import Start from "./Pages/Start";
+
 function App() {
-  return <p className="text-3xl text-red-500">Tailwind Correct installed</p>;
+  return <Start />;
 }
 
 export default App;
