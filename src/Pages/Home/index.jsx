@@ -56,8 +56,8 @@ export default function Home() {
             className="w-24 h-24 bg-[url('./gamabunta.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
           ></Link>
           <Link
-            to="/quote/hinata"
-            className="w-24 h-24 bg-[url('./hinata.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
+            to="/quote/ino"
+            className="w-24 h-24 bg-[url('./ino.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
           ></Link>
           <Link
             to="/quote/choji"
