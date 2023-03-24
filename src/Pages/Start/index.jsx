@@ -10,7 +10,7 @@ export default function Start() {
       <div className="flex flex-col align-middle justify-center">
         <Link
           to="/home"
-          className="border-orange-400 w-96 h-20 bg-white text-3xl text-orange-400 flex justify-center items-center border-solid border-4"
+          className="border-orange-400 w-96 h-20 bg-white text-3xl text-orange-400 flex justify-center items-center border-solid border-4 hover:animate-pulse"
         >
           Start
         </Link>

@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="max-w-full flex h-screen bg-gradient-to-t from-neutral-800 to-orange-600 py-16 px-20">
+    <div className="max-w-full flex h-screen bg-gradient-to-t from-neutral-800 to-orange-600 py-16 px-20 ">
       <div className="flex flex-col justify-between mr-64">
         <img src="./naruto-ultimate-quotes-logo.png" alt="" />
         <Link
           to="/"
-          className="border-orange-400 w-96 h-20 bg-white text-3xl text-orange-400 flex justify-center items-center border-solid border-4"
+          className="animate-none border-orange-400 w-96 h-20  bg-white text-3xl text-orange-400 flex justify-center items-center border-solid border-4 hover:animate-pulse"
         >
           BACK
         </Link>
@@ -48,16 +48,16 @@ export default function Home() {
             className="w-24 h-24 bg-[url('./rock%20lee.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
           ></Link>
           <Link
-            to="/quote/itachi-uchiha"
-            className="w-24 h-24 bg-[url('./itachi-uchiha.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
+            to="/quote/itachi uchiha"
+            className="w-24 h-24 bg-[url('./itachi%20uchiha.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
           ></Link>
           <Link
             to="/quote/gamabunta"
             className="w-24 h-24 bg-[url('./gamabunta.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
           ></Link>
           <Link
-            to="/quote/ino"
-            className="w-24 h-24 bg-[url('./ino.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
+            to="/quote/Ino Yamanaka"
+            className="w-24 h-24 bg-[url('./Ino%20Yamanaka.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
           ></Link>
           <Link
             to="/quote/choji"
