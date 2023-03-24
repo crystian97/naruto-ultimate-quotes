@@ -44,8 +44,8 @@ export default function Home() {
             className="w-24 h-24 bg-[url('./gaara.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
           ></Link>
           <Link
-            to="/quote/rock-lee"
-            className="w-24 h-24 bg-[url('./rock-lee.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
+            to="/quote/rock lee"
+            className="w-24 h-24 bg-[url('./rock%20lee.png')] bg-cover bg-top rounded transition duration-200  border-orange-400	border-1 bg-white hover:bg-orange-400 ease-in "
           ></Link>
           <Link
             to="/quote/itachi-uchiha"
